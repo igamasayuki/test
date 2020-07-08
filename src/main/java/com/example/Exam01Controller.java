@@ -11,9 +11,12 @@ public class Exam01Controller {
 	@RequestMapping("")
 	public String init() {
 		System.out.println("EclipseとSTSで修正");
-		return "exam01";
+		return "STSで修正";
 	}
 	
+	public String test2() {
+		return null;
+	}
 
 	@RequestMapping("/input")
 	public String input(String name,String age, Model model) {
