@@ -8,10 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/exam01")
 public class Exam01Controller {
 
+	public String test() {
+		return null;
+	}
+	
 	@RequestMapping("")
 	public String init() {
 		System.out.println("EclipseとSTSで修正");
-		return "exam01";
+		return "Eclipseで修正";
 	}
 	
 
